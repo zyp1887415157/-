@@ -55,6 +55,7 @@ public class SimpleRealm extends AuthorizingRealm {
         UserInfo user = userInfoService.findBy(userId);
 
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
+
         // 遍历用户的所有角色
         for (SysRole sysRole : user.getRoleList()) {
             // 将遍历出来的的角色信息放入到授权信息对象中
