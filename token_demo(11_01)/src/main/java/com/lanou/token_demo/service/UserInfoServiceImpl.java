@@ -18,6 +18,7 @@ public class UserInfoServiceImpl implements UserInfoService {
         if (byUsername != null && byUsername.getPassword().equals(password)) {
             return byUsername;
         }
+
         return null;
     }
 
