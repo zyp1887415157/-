@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lanou.demo.mapper.PersonMapper">
+
+    <!--如果表中的列名与实体类的属性名不一致，需要额外配置映射关系-->
+    <resultMap id="personMap" type="com.lanou.demo.entity.Person">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="age" property="age"/>
+    </resultMap>
+
+    <!--在statement中引用配置好的映射关系-->
+    <select id="findAll" resultMap="personMap">
+        select * from db_person
+    </select>
+
+    <!--
+    当向statement 中传递参数时，只能传递一个对象
+    当传递的对象为数据库的基本数据类型时，sql中的参数名字可以随便写
+    当传递的对象为Map或实体类的时候，
+    sql中的参数名字需要与map的key或者实体类的属性保持一致
+    -->
+    <select id="findByid" resultMap="personMap" >
+        select * from db_person where id= #{id} and name = #{name}
+    </select>
+    
+    <insert id="addOne">
+        insert into db_person (name, age) VALUES (#{name},#{age})
+    </insert>
+</mapper>

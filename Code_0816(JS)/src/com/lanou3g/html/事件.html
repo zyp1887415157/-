@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #btn1 {
+            color: darkmagenta;
+        }
+    </style>
+</head>
+<body>
+<button id="btn1" onclick="onBtn1Click()">点我</button>
+<button id="btn2">点我</button>
+<button id="btn3">点我3号双击666</button>
+<br>
+<label>用户名:<input type="text" id="username" value=""></label>
+<span id="acct" style="display: none;color: red ">用户名输入的不符合规则</span>
+<br>
+
+<div class="c-red">
+    <div>
+        <p>Java</p>
+        <p>Python</p>
+        <p>Ruby</p>
+    </div>
+    <div class="c-red c-blue">
+        <p>JavaScript</p>
+        <p>swift</p>
+    </div>
+    <div class="c-blue">
+        <p>kotlin</p>
+        <p>Objective-C</p>
+    </div>
+</div>
+<script>
+    //1.点击事件
+    //第一种实现方式
+    function onBtn1Click() {
+        document.write('<h1>1号被点了</h1>')
+    }
+
+    //第二种实现方式
+    //1.使用js获取到某个需要点击的元素
+    var btn2 = document.getElementById("btn2")
+    //2.为这个元素设置相关的事件
+    btn2.onclick = function () {
+        document.write('<h1>2号被点了</h1>')
+    }
+
+    //或者
+    function onBtn2Click() {
+        console.log('btn2被点了')
+    }
+
+    btn2.onclick = onBtn2Click;
+    //或者
+    btn2.onclick = () => {
+        console.log('btn2被点了')
+    }
+    //双击
+    var btn3 = document.getElementById("btn3");
+    //调到百度页面
+    // btn3.ondblclick = () => {window.location="https://www.baidu.com/"}
+    btn3.onfocus = function () {
+        this.style.borderColor = "#008b8b"
+        window.location = "https://www.baidu.com/"
+    };
+    //焦点事件
+    //获得焦点  失去焦点
+    var userInput = document.getElementById("username");
+    // 获取提示信息的标签
+    var acct = document.getElementById("acct");
+    //获得焦点事件
+    userInput.onfocus = function () {
+        console.log("用户名获得了焦点")
+        userInput.style.backgroundColor = '#ffff00'
+        acct.style.display = 'none';
+    }
+    //失去焦点事件  on开头的方法名,一般表示回调的方法
+    //这样的方法不是由我们去调用的,是触发该方法的调用
+    userInput.onblur = function () {
+        //获取输入框的内容
+        var value = userInput.value;
+        if (value.length < 6) {
+            // 让某个标签显示出来
+            //让acct标签css中的值变为contents
+            acct.style.display = 'inline';
+            acct.style.backgroundColor = '#dddddd'
+            userInput.style.backgroundColor = '#ffffff'
+        }
+        console.log("用户名失去了焦点")
+    }
+
+    // 获取元素
+    var ps = document.getElementsByClassName("c-red c-blue")[0].children
+    for (var v of ps) {
+        // console.log(v.innerText);
+        //修改一个标签中的文本
+        // v.innerText = 'xxxxx';
+        v.innerHTML = `<a href="#" style="text-decoration: none">${v.innerText}</a>`
+    }
+
+    //正则表达式
+    var regEmail = /[0-9a-zA-Z]+@[a-z0-9A-Z]+\.[a-zA-Z]+/;
+    var result = regEmail.test('21@qq.com');
+    console.log(result);
+</script>
+</body>
+</html>

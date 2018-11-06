@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--为实体类配置别名
+    在以后的Mapper.xml配置文件中
+    所有用到全限定名的位置，都可以使用别名来代替
+    -->
+    <typeAliases>
+        <!--
+        扫描entity包，自动为实体类创建别名，
+        默认的别名格式为类名的小驼峰形式-->
+        <!--<package name="com.lanou.demo.entity"/>-->
+        <typeAlias type="com.lanou.demo.entity.GoodsCategory" alias="Category"/>
+        <typeAlias type="com.lanou.demo.entity.Goods" alias="Goods"/>
+        <typeAlias type="com.lanou.demo.entity.User" alias="User"/>
+        <typeAlias type="com.lanou.demo.entity.Order" alias="Order"/>
+        <typeAlias type="com.lanou.demo.entity.OrderItem" alias="OrderItem"/>
+        <typeAlias type="com.lanou.demo.entity.OrderMoney" alias="OrderMoney"/>
+        <typeAlias type="com.lanou.demo.entity.UserMoney" alias="UserMoney"/>
+    </typeAliases>
+    <environments default="dev">
+        <environment id="dev">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/db_goods_store"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource="com/lanou/demo/mapper/CommonsMapper.xml"/>
+        <!--扫描包  会加载该包下所有的类（或接口）所对应的mapper.xml映射文件-->
+        <package name="com.lanou.demo.mapper"/>
+    </mappers>
+</configuration>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #cc {
+        width: 400px;
+        background-color: orange;
+
+    }
+
+</style>
+<body>
+<!--
+5个输入框 id name  出生日期  gender  操作
+一个添加按钮
+点击添加按钮  将数据添加到表格中
+parentP
+-->
+<label for="input1">id:<input type="text" id="input1" value=""></label>
+<label for="input2">名字:<input type="text" id="input2" value=""></label>
+<label for="input3">出生日期:<input type="text" id="input3" value=""></label>
+<label for="input4">性别:<input type="text" id="input4" value=""></label>
+<button id="butAdd">添加</button>
+<table id="cc" border="1px">
+    <caption>学生表</caption>
+    <thead>
+    <tr style="border: 2px solid black">
+        <th>id</th>
+        <th>名字</th>
+        <th>出生日期</th>
+        <th>性别</th>
+        <th>操作</th>
+        <th>链接</th>
+    </tr>
+    </thead>
+    <tbody id="aa">
+
+    </tbody>
+</table>
+<script>
+    var input1 = document.getElementById("input1");
+    var input2 = document.getElementById("input2");
+    var input3 = document.getElementById("input3");
+    var input4 = document.getElementById("input4");
+    var aa = document.getElementById("aa");
+    var butAdd = document.getElementById("butAdd");
+    butAdd.onclick = function () {
+        var value1 = input1.value;
+        var value2 = input2.value;
+        var value3 = input3.value;
+        var value4 = input4.value;
+
+        var td1 = document.createElement("td");
+        var td2 = document.createElement("td");
+        var td3 = document.createElement("td");
+        var td4 = document.createElement("td");
+        var td5 = document.createElement("td");
+        var button = document.createElement("button");
+        var a = document.createElement("a");
+        var td6 = document.createElement("td");
+        button.style.backgroundColor = "#ff0000";
+        a.style.color = "#1F26FF"
+        td1.innerText = value1;
+        td2.innerText = value2;
+        td3.innerText = value3;
+        td4.innerText = value4;
+        button.innerText = '删除';
+        a.innerText = "百度";
+        var tr = document.createElement("tr");
+        tr.appendChild(td1);
+        tr.appendChild(td2);
+        tr.appendChild(td3);
+        tr.appendChild(td4);
+        tr.appendChild(td5);
+        aa.appendChild(tr);
+        tr.appendChild(td6);
+        td6.appendChild(a);
+        td5.appendChild(button);
+
+        button.onclick = function () {
+            button.parentElement.parentElement.remove();
+        }
+        a.onclick = function () {
+            window.open("https://www.baidu.com/")
+        }
+    };
+    //var let   const
+
+</script>
+</body>
+</html>

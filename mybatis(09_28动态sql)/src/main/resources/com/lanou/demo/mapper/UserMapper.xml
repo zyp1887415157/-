@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lanou.demo.mapper.UserMapper">
+
+    <select id="findAllByCondition" resultMap="Commons.userMap">
+        select *
+        from tb_user
+        where delete_flag = 0
+        <if test="userName!=null">
+            and user_name like #{userName}
+        </if>
+        <if test="gender!=null">
+            and gender = #{gender}
+        </if>
+        <if test="minHeight!=null">
+            and height >= #{minHeight}
+        </if>
+        <if test="maxHeight!=null">
+            # 小于号需要转译
+            and height &lt;= #{maxHeight}
+        </if>
+        <if test="minWeight!=null">
+            and weight >= #{minWeight}
+        </if>
+        <if test="maxWeight!=null">
+            # 小于号需要转译
+            and weight &lt;= #{maxWeight}
+        </if>
+        <if test="birthday!=null">
+            and birthday = #{birthday}
+        </if>
+    </select>
+
+    <select id="findAll" resultMap="Commons.userMap">
+        select * from tb_user
+        <where>
+            <if test="userName ！=null">
+                and user_name like #{userName}
+            </if>
+            <if test="gender!=null">
+                and gender = #{gender}
+            </if>
+            <if test="minHeight!=null">
+                and height >= #{minHeight}
+            </if>
+            <if test="maxHeight!=null">
+                # 小于号需要转译
+                and height &lt;= #{maxHeight}
+            </if>
+            <if test="minWeight!=null">
+                and weight >= #{minWeight}
+            </if>
+            <if test="maxWeight!=null">
+                # 小于号需要转译
+                and weight &lt;= #{maxWeight}
+            </if>
+            <if test="birthday!=null">
+                and birthday = #{birthday}
+            </if>
+        </where>
+    </select>
+
+    <update id="updateOne">
+        update tb_user
+        <set>
+            <if test="name!=null">
+                user_name = #{name},
+            </if>
+            <if test="gender!=null">
+                gender = #{gender},
+            </if>
+            <if test="height!=null">
+                height = #{height},
+            </if>
+            <if test="weight!=null">
+                weight = #{weight},
+            </if>
+            <if test="birthday!=null">
+                birthday = #{birthday}
+            </if>
+        </set>
+        where user_id = #{id}
+    </update>
+
+    <delete id="deleteByUserIds">
+        delete from tb_user
+        <foreach collection="list" item="id" open="where user_id = (" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <insert id="addUsers">
+        insert into tb_user (user_name, gender, height, weight, birthday, delete_flag)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (#{item.name},#{item.gender},#{item.height},#{item.weight},#{item.birthday},0)
+        </foreach>
+
+    </insert>
+
+
+</mapper>

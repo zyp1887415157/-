@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lanou.demo.mapper.OrderMapper">
+
+
+    <resultMap id="OrderMap" type="Order" extends="Commons.orderMap">
+        <collection property="orderItemList" ofType="OrderItem" resultMap="orderItemMap"/>
+    </resultMap>
+
+    <resultMap id="orderItemMap" type="OrderItem" extends="Commons.orderItemMap">
+        <association property="goods" javaType="Goods" resultMap="goodsMap"/>
+    </resultMap>
+
+    <resultMap id="goodsMap" type="Goods" extends="Commons.goodsMap">
+        <association property="category" javaType="Category" resultMap="Commons.CategoryMap"/>
+    </resultMap>
+
+    <!--
+    定义带参数的sql片段
+    -->
+    <sql id="sql-join-order-item">
+        ${good}.goods_id,
+        ${good}.goods_name,
+        ${good}.goods_price
+    </sql>
+
+    <!--定义sql片段-->
+    <sql id="sql-all-order">
+        select tb_order.order_id,
+               tb_order.order_code,
+               toi.order_id,
+               <include refid="sql-join-order-item">
+                    <!--
+                    为带参数的sql片段传值
+                    -->
+                   <property name="good" value="good"/>
+               </include>,
+               toi.goods_qty
+        from tb_order
+                 left join tb_order_item toi on tb_order.order_id = toi.order_id
+                 left join tb_goods good on toi.goods_id = good.goods_id
+    </sql>
+
+    <select id="findAll" resultMap="OrderMap">
+        #  引入某个sql片段
+      <include refid="sql-all-order"/>
+    </select>
+
+    <select id="findByid" resultMap="OrderMap">
+       <include refid="sql-all-order"/>
+        where toi.order_id = #{order_id}
+    </select>
+
+    <resultMap id="OrderMoneyMap" type="OrderMoney">
+        <id column="order_id" property="orderId"/>
+        <result column="user_id" property="userId"/>
+        <result column="order_code" property="orderCode"/>
+        <result column="money" property="money"/>
+        <collection property="orderItemList" ofType="OrderItem" resultMap="orderItemMap"/>
+    </resultMap>
+
+    <select id="findAllWithMoney" resultMap="OrderMoneyMap">
+        select to2.order_id, to2.order_code, sum(good.goods_price * toi.goods_qty) as 'money'
+        from tb_order to2
+                 left join tb_order_item toi on to2.order_id = toi.order_id
+                 left join tb_goods good on toi.goods_id = good.goods_id
+        group by to2.order_id;
+    </select>
+
+</mapper>

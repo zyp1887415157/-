@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<albumList>
+    <album name="周杰伦">
+        <music>
+            <id>1</id>
+            <name>告白气球</name>
+            <person>周董</person>
+        </music>
+        <music>
+            <id>2</id>
+            <name>晴天</name>
+            <person>周董</person>
+        </music>
+        <music>
+            <id>3</id>
+            <name>稻香</name>
+            <person>周董</person>
+        </music>
+        <music>
+            <id>4</id>
+            <name>听妈妈的话</name>
+            <person>周董</person>
+        </music>
+        <music>
+            <id>5</id>
+            <name>超人不会飞</name>
+            <person>周董</person>
+        </music>
+    </album>
+</albumList>

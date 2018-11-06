@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-2.2.4.min.js"></script>
+    <style>
+        .A1{
+            background-color: blue;
+            /*border: 2px solid yellow;*/
+            /*width: 200px;*/
+            /*height: 200px*/
+        }
+        .B2{
+            background-color: red;
+            /*border: 2px solid yellow;*/
+            /*width: 200px;*/
+            /*height: 200px*/
+        }
+
+    </style>
+</head>
+<body>
+<div id="a1" class="A1" >
+</div>
+<input id="a2" >
+<script>
+    //鼠标点击  来回换颜色
+    $(function () {
+        $('#a1').click(function () {
+            $('#a1').toggleClass('B2')
+        });
+        //焦点事件
+        $('#a2').focus(function () {
+            $('#a2').addClass('A1')
+        });
+        $('#a2').blur(function () {
+            $('#a2').addClass('B2')
+        })
+    })
+</script>
+
+</body>
+</html>

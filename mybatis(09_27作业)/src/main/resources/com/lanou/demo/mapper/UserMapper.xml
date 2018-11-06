@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lanou.demo.mapper.UserMapper">
+
+    <resultMap id="UserMap" type="UserMoney" extends="Commons.userMap">
+        <result column="money" property="money"/>
+        <collection property="orderList" ofType="Order" resultMap="OrderMap">
+
+        </collection>
+    </resultMap>
+
+    <resultMap id="OrderMap" type="Order" extends="Commons.orderMap">
+        <collection property="orderItemList" ofType="OrderItem" resultMap="orderItemMap">
+
+        </collection>
+    </resultMap>
+
+    <resultMap id="orderItemMap" type="OrderItem" extends="Commons.orderItemMap">
+        <association property="goods" javaType="Goods" resultMap="goodsMap">
+
+        </association>
+    </resultMap>
+
+    <resultMap id="goodsMap" type="Goods" extends="Commons.goodsMap">
+        <association property="category" javaType="Category" resultMap="Commons.CategoryMap">
+        </association>
+    </resultMap>
+
+    <select id="findAllWithPriceByUser" resultMap="UserMap" >
+        select user2.user_id, user2.user_name, sum(good.goods_price * tb_order_item.goods_qty) as 'money'
+        from tb_user user2
+                 left join tb_order on tb_order.user_id = user2.user_id
+                 left join tb_order_item on tb_order.order_id = tb_order_item.order_id
+                 left join tb_goods good on tb_order_item.goods_id = good.goods_id
+        group by user2.user_id;
+    </select>
+
+    <!--控制2级缓存 默认值为true -->
+    <cache/>
+
+    <select id="findAllByCondition" resultMap="Commons.userMap" useCache="true"  >
+        select *
+        from tb_user
+        where delete_flag = 0
+        <if test="userName!=null">
+            and user_name like #{userName}
+        </if>
+        <if test="gender!=null">
+            and gender = #{gender}
+        </if>
+        <if test="minHeight!=null">
+            and height >= #{minHeight}
+        </if>
+        <if test="maxHeight!=null">
+            # 小于号需要转译
+            and height &lt;= #{maxHeight}
+        </if>
+        <if test="minWeight!=null">
+            and weight >= #{minWeight}
+        </if>
+        <if test="maxWeight!=null">
+            # 小于号需要转译
+            and weight &lt;= #{maxWeight}
+        </if>
+        <if test="birthday!=null">
+            and birthday = #{birthday}
+        </if>
+
+    </select>
+
+
+    <select id="findAll" resultMap="Commons.userMap">
+        select *
+        from tb_user
+        <where>
+            <if test="userName!=null">
+                 user_name like #{userName}
+            </if>
+            <if test="gender!=null">
+                and gender = #{gender}
+            </if>
+            <if test="minHeight!=null">
+                and height >= #{minHeight}
+            </if>
+            <if test="maxHeight!=null">
+                # 小于号需要转译
+                and height &lt;= #{maxHeight}
+            </if>
+            <if test="minWeight!=null">
+                and weight >= #{minWeight}
+            </if>
+            <if test="maxWeight!=null">
+                # 小于号需要转译
+                and weight &lt;= #{maxWeight}
+            </if>
+            <if test="birthday!=null">
+                and birthday = #{birthday}
+            </if>
+        </where>
+    </select>
+
+    <update id="updateOne">
+        update tb_user
+        <set>
+            <if test="name!=null">
+                user_name = #{name},
+            </if>
+            <if test="gender!=null">
+                gender = #{gender},
+            </if>
+            <if test="height!=null">
+                height = #{height},
+            </if>
+            <if test="weight!=null">
+                weight = #{weight},
+            </if>
+            <if test="birthday!=null">
+                birthday = #{birthday}
+            </if>
+        </set>
+        where user_id = #{id}
+    </update>
+
+
+
+    <delete id="deleteByUserIds">
+        delete from tb_user where
+        <!--
+        collection    方法的参数如果传递的是集合，就填list item表示遍历的元素
+                      如果是数组   就填 array
+                      如果是map，就填map  index表示key，item表示value
+        open          表示在遍历之前拼接的内容
+        separator     表示遍历的时候以什么分割、
+        close         表示在遍历之后拼接的内容
+        list.size   可以获取传递捡来的集合中元素的数量
+        array.lenght  可以获取数组中元素的数量
+        -->
+        <if test="list!=null and list.size > 0">
+            <foreach collection="list" index="index" item="id" open=" user_id in (" separator="," close=")">
+                #{id}
+            </foreach>
+        </if>
+        <if test="list == null or list.size = 0">
+            1 == 2
+        </if>
+    </delete>
+
+    <insert id="addUsers">
+        insert into tb_user (user_name, gender, height, weight,birthday,delete_flag) values
+        <foreach collection="list" separator="," item="item" >
+            (#{item.name}, #{item.gender}, #{item.height}, #{item.weight},#{item.birthday},0)
+        </foreach>
+    </insert>
+</mapper>

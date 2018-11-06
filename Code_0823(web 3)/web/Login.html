@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+<form action="login" method="post">
+    <input type="text" name="code">
+    <img id="img" src="code" ><br>
+    <input type="submit" value="验证">
+</form>
+<script>
+    $(function () {
+        $('#img').click(function () {
+            $('#img').attr('src','code?'+Math.random())
+        })
+    })
+</script>
+</body>
+</html>

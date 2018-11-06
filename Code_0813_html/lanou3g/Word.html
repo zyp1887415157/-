@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--DOCTYPE  文档类型  用来规定该xml文件可以使用哪些标签-->
+<!--跟标签为html,lang属性用来标识该文档的语言-->
+<html lang="en">
+<head>
+    <!--head标签中一把会对该HTML进行一些配置-->
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="2">
+    <!--标题-->
+    <title>我是一个html文档</title>
+    <style>
+        #aa {
+            font-size: 50px;
+            color: darkorchid;
+        }
+    </style>
+</head>
+<!--body标签,规定浏览器显示的内容-->
+<body>
+
+<span id="aa"><em><STRONG>张有朋</STRONG></em></span>
+<h1>基本标签</h1>
+<h2>诗歌鉴赏</h2>
+<h3>卧春</h3>
+<em>卧</em>梅又闻花,<br>
+<em>卧</em>枝伤痕底.<br>
+遥闻卧似水,<br>
+一头<strong>大蠢驴</strong>.<br>
+<h1>列表</h1>
+<h2>有序列表</h2>
+<ol>
+    <li>辽宁</li>
+    <ol>
+        <li>沈阳</li>
+        <li>大连</li>
+        <li>鞍山</li>
+    </ol>
+    <li>吉林</li>
+    <ol>
+        <li>长春</li>
+        <li>吉林</li>
+    </ol>
+</ol>
+<h2>无序列表</h2>
+<ul>
+    <li>水果</li>
+    <li>零食</li>
+    <li>甜品</li>
+</ul>
+<h3>自定义列表</h3>
+<dl>
+    <dt>城市</dt>
+    <dd>大连</dd>
+</dl>
+<hr>
+<marquee behavior="scroll" direction="left" loop="-1">
+    <p><font color="yellow"> 让村中妇女都怀上二胎,是村支书不可推卸的责任</font></p>
+</marquee>
+<marquee behavior="alternate" loop="-1">
+    <p><font color="#9400d3">hahahahaha</font></p>
+    <p><font color="#9400d3">hahahahaha</font></p>
+    <p><font color="#9400d3">hahahahaha</font></p>
+</marquee>
+<div style="height: 300px;">
+    <!--默认是在当前页面打开性的页面-->
+    <!--设置target属性的值为_blank,会使用新的标签页面打开-->
+    <a href="https://music.163.com/" target="_blank">网易云音乐</a><br>
+    <img src="../libs/AA.jpg" height="300" width="400" title="鞠文清">
+    <img src="../libs/BB.jpg" height="500" width="400" title="林允儿">
+    <!--锚点-->
+    <a href="#aa">回到顶部</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        #a {
+            position: relative;
+            left: 150px;
+        }
+
+        #b {
+            background-color: white;
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            right: 100px;
+            top: 200px;
+        }
+        #c{
+            position: relative;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="a">
+    <img src="../libs/2.png" height="60" width="170"/>
+
+    &nbsp&nbsp&nbsp<span style="color: darkgray;display:inline-block; font-size: 25px;margin-top: 20px ">欢迎登录</span>
+</div>
+<div style="height: 450px; background-image: url('../libs/1.jpg') ">
+    <div id="b">
+        <form action="" method="get">
+            <div style="height: 50px">
+                <p style="float: left; margin: 15px">京东会员</p>
+                <div style="float: right;margin: 15px">
+                    <img src="../libs/bg.png" height="9" width="7"/><span style="color: red">立即注册</span>
+                </div>
+            </div>
+            <div style="position: relative;left: 20px;margin: 5px" class="form-group">
+                <label for="name">用户名:</label><input style="color: #999999" type="text" class="form-control" id="name"
+                                                    name="name" value="邮箱用户名已验证手机"/>
+            </div>
+            <div style="position: relative;left: 20px;margin: 5px" class="form-group">
+                <label for="password">密码:&nbsp&nbsp&nbsp</label><input type="password" class="form-control"
+                                                       id="password" name="password"/>
+            </div><br><br>
+            <input style="position: relative;left: 5px;margin: 10px" type="checkbox" >自动登录
+            <span style="position: relative;left: 55px;margin: 10px">忘记密码?</span><br>
+
+            <button id="c" type="submit" style="background-color: red;width: 200px;height: 30px;color: white;"  >登录</button>
+        </form>
+    </div>
+
+</div>
+
+
+</body>
+</html>

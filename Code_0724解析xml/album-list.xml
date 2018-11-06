@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--第一行为文档声明--><albumList>
+    <album name="周杰伦">
+        <music>
+            <id>1</id>
+            <name>告白气球</name>
+            <duration>200</duration>
+            <person>周杰伦</person>
+        </music>
+        <music>
+            <id>2</id>
+            <name><![CDATA[
+            重卡放开那都是为,那对你可人家听你话
+            ]]></name>
+            <duration>300</duration>
+            <person>周杰伦</person>
+        </music>
+        <music>
+            <id>3</id>
+            <name>七里香</name>
+            <duration>340</duration>
+            <person>周杰伦</person>
+        </music>
+    </album>
+</albumList>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--加载自己的JQuery-->
+    <script src="../js/jquery-2.2.4.min.js"></script>
+    <!--加载百度CDN服务器上的JQuery-->
+</head>
+<p id="p1">华联</p>
+<p>点谁谁没2</p>
+<p>点谁谁没3</p>
+<p>点谁谁没4</p>
+<p>点谁谁没5</p>
+<p>点谁谁没6</p>
+    <label for="inp">请输入<input id="inp" value="啊啊啊啊阿"></label>
+<div id="mouse" style="width: 300px;height: 200px;border: 1px solid red;background-color: fuchsia"></div>
+<button id="btn">点击</button><br>
+<span id="content">年后</span><br>
+<span>年后</span><br>
+<span>年后</span><br>
+
+<script>
+
+    //文档就绪事件
+    $(function () {
+
+        //  代表设置
+        $('p').click(function () {
+            $(this).hide(5000);
+        });
+
+        $('span').dblclick(function () {
+            $('span').hide(2000)
+        });
+
+        //不填参数 代表调用  页面加载就调用
+        // $('p').click();
+
+        // var ps = document.getElementsByTagName("p");
+        //
+        // for (var p of ps) {
+        //     p.onclick = function () {
+        //         $(this).hide(1000);
+        //     }
+        // }
+
+
+        $('#mouse').mouseenter(function () {
+            $('span').show(500);
+
+        }).mouseleave(function () {
+            $('span').hide(500);
+        })
+
+        $('#mouse').hover(
+            //第一个匿名函数表示鼠标进入事件
+            () => { $('span').show(500);},
+            //第二个匿名函数表示鼠标移出事件
+            () => { $('span').hide(500);}
+        );
+        $('#btn').click(function () {
+            $('span').toggle();
+        });
+
+        $('#btn').click(function () {
+            // const a = $('#inp').val();
+            // $('#p1').text(a)
+            //获取属性
+            $('#inp').attr({
+                value:'萨拉麦妮',
+                type : 'password',
+                'style':'background-color:#666666;'
+            })
+        });
+
+
+    })
+
+</script>
+</body>
+</html>

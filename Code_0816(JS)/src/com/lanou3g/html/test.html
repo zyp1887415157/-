@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--//添加一个需要输入邮箱的元素-->
+<!--//如果用户没有填写,那么提示  请输入邮箱地址-->
+<!--//如果用户填写错误 提示  请输入正确邮箱-->
+<label for="input">邮箱:<input type="text" id="input" value=""></label>
+<span id="acct1" style="display: none;color: red ">请输入邮箱地址</span>
+<!--<span id="acct2" style="display: none;color: red ">请正确输入邮箱</span>-->
+<script>
+
+    var userInput = document.getElementById("input");
+    var acct1 = document.getElementById("acct1");
+    // var acct2 = document.getElementById("acct2");
+    var regEmail = /[0-9a-zA-Z]+@[a-z0-9A-Z]+\.[a-zA-Z]+/;
+
+    userInput.onblur = function () {
+        var value = userInput.value;
+        var result = regEmail.test(value);
+        console.log(result);
+        if (value.length === 0) {
+            acct1.style.display = 'inline'
+            // acct2.style.display = 'none'
+        } else if (result !== true) {
+            acct1.innerText='请正确输入邮箱';
+            acct1.style.display = 'inline'
+            // acct1.style.display = 'none'
+        }else {
+            acct1.style.display = 'none'
+        }
+    }
+</script>
+</body>
+</html>

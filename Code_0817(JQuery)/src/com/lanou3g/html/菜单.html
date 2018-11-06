@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-2.2.4.min.js"></script>
+    <style>
+       div{
+           width: 100px;
+           height: 50px;
+       }
+        p{
+            margin: 0px;
+            text-align: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div >
+<div id="d1" style="background-color: fuchsia"><p>菜单</p></div>
+<div   class="a" style="background-color: red;display: none"><p>第一道</p></div>
+<div   class="b" style="background-color: orange;display: none"><p>第二道</p></div>
+<div   class="b" style="background-color: orange;display: none"><p>第三道</p></div>
+<div   class="b" style="background-color: orange;display: none"><p>第四道</p></div>
+<div   class="b" style="background-color: orange;display: none"><p>第五道</p></div>
+<div   class="b" style="background-color: orange;display: none"><p>第六道</p></div>
+<div   class="b" style="background-color: orange;display: none"><p>第七道</p></div>
+<div   class="b" style="background-color: orange;display: none"><p>第八道</p></div>
+<div   class="b" style="background-color: fuchsia;display: none"><p>第九道</p></div>
+</div>
+
+<script>
+    $(function () {
+        // $('#d1').mouseenter(function () {
+        //     $('.b').slideDown(1000);
+        // });
+        // $('#d1').mouseleave(function () {
+        //     $('.b').slideUp(1000);
+        // });
+        $('#d1').click(function () {
+            $('.b').slideToggle(1000);
+        });
+
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ddf6529-097c-47ac-a89b-0daa58e61b22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/body.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/body.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/desc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/desc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/category/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/category/del.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/category/del.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/category/mod.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/category/mod.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/msg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/msg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/order/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/order/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/msg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/msg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/abc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/abc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/bc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/bc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/bcc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/bcc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/beijingnongshang.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/beijingnongshang.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/bh.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/bh.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/bj.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/bj.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/ccb.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/ccb.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/cib.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/cib.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/cmb.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/cmb.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/cmbc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/cmbc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/dy.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/dy.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/gf.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/gf.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/guangda.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/guangda.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/hx.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/hx.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/icbc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/icbc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/nanjing.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/nanjing.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/ningbo.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/ningbo.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/pingan.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/pingan.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/post.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/post.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/sfz.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/sfz.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/sh.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/sh.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/shpd.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/shpd.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/zheshang.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/zheshang.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/zx.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/bank_img/zx.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/20029394-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/20029394-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/20285763-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/20285763-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/20385925-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/20385925-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/22722790-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/22722790-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/22788412-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/22788412-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/8758723-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/8758723-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/8991366-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/8991366-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/9265169-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/9265169-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/9317290-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/book_img/9317290-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/images/all.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/images/all.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/images/cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/images/cart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/images/welcome.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/images/welcome.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/body.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/body.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/book/desc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/book/desc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/book/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/book/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/cart/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/cart/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/msg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/msg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/order/desc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/order/desc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/order/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/order/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/order/msg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/order/msg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/order/send.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/order/send.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/jsps/user/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/menu/img/jia.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/menu/img/jia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/menu/img/jian.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/menu/img/jian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/menu/mymenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/menu/mymenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/menu/mymenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/menu/mymenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/sql/bookstore.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/sql/bookstore.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/body.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/body.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/book/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/book/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/book/desc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/book/desc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/book/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/book/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/category/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/category/del.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/category/del.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/category/mod.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/category/mod.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/msg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/msg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/order/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/order/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/adminjsps/msg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/adminjsps/msg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/abc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/abc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/bc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/bc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/bcc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/bcc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/beijingnongshang.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/beijingnongshang.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/bh.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/bh.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/bj.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/bj.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/ccb.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/ccb.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/cib.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/cib.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/cmb.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/cmb.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/cmbc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/cmbc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/dy.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/dy.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/gf.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/gf.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/guangda.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/guangda.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/hx.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/hx.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/icbc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/icbc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/nanjing.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/nanjing.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/ningbo.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/ningbo.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/pingan.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/pingan.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/post.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/post.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/sfz.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/sfz.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/sh.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/sh.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/shpd.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/shpd.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/zheshang.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/zheshang.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/bank_img/zx.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/bank_img/zx.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/book_img/20029394-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/book_img/20029394-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/book_img/20285763-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/book_img/20285763-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/book_img/20385925-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/book_img/20385925-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/book_img/22722790-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/book_img/22722790-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/book_img/22788412-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/book_img/22788412-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/book_img/8758723-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/book_img/8758723-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/book_img/8991366-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/book_img/8991366-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/book_img/9265169-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/book_img/9265169-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/book_img/9317290-1_l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/book_img/9317290-1_l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/images/all.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/images/all.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/images/cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/images/cart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/images/welcome.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/images/welcome.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/body.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/body.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/book/desc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/book/desc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/book/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/book/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/cart/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/cart/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/msg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/msg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/order/desc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/order/desc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/order/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/order/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/order/msg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/order/msg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/order/send.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/order/send.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/jsps/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/jsps/user/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/menu/img/jia.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/menu/img/jia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/menu/img/jian.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/menu/img/jian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/menu/mymenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/menu/mymenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/menu/mymenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/menu/mymenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/web/sql/bookstore.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/sql/bookstore.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NETCTOSS" beforeDir="false" afterPath="$PROJECT_DIR$/../../NETCTOSS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/util/IOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/util/IOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/util/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/util/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/util/MyResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/util/MyResultSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/util/MyStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/util/MyStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/util/IOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/util/IOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/util/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/util/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/util/MyResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/util/MyResultSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/util/MyStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0516/src/com/lanou3g/hw0516/util/MyStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/IOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/IOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/MyResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/MyResultSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/MyStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/MyStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/http/HttpManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/http/HttpManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/MultiDownloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/MultiDownloadManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/OnProgressListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/OnProgressListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/RealDownloadThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/RealDownloadThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/util/CloseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/util/CloseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0813_html/libs/faq01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0813_html/libs/faq01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0813_html/libs/faq02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0813_html/libs/faq02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0813_html/libs/faq03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0813_html/libs/faq03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0814(CSS)/src/libs/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0814(CSS)/src/libs/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0815(CSS)/src/com/lanou3g/image/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0815(CSS)/src/com/lanou3g/image/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0815(CSS)/src/com/lanou3g/image/tel.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0815(CSS)/src/com/lanou3g/image/tel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-table.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/util/IOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/util/IOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/util/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/util/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/util/MyResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/util/MyResultSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/util/MyStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/util/MyStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/util/IOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/util/IOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/util/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/util/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/util/MyResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/util/MyResultSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/util/MyStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0516/src/com/lanou3g/code0516/util/MyStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/file/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/file/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0607_bookstrap1/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap-table.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/bootstrap-table-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/bootstrap-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/bootstrap-table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/bootstrap-table.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/src/main/webapp/static/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap-table.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/bootstrap-table-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/bootstrap-table-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/bootstrap-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/bootstrap-table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/bootstrap-table.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Maven/bbs/target/bbs/static/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/.idea/dictionaries/ttt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/.idea/dictionaries/ttt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/out/production/MBG01/com/lanou3g/mapper/ItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/out/production/MBG01/com/lanou3g/mapper/ItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/out/production/MBG01/com/lanou3g/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/out/production/MBG01/com/lanou3g/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/out/production/MBG01/com/lanou3g/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/out/production/MBG01/com/lanou3g/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/out/production/MBG01/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/out/production/MBG01/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/out/production/MBG01/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/out/production/MBG01/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/entity/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/entity/ItemExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/entity/ItemExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/entity/OrderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/entity/OrderExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/entity/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/entity/UserExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/mapper/ItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/mapper/ItemMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/mapper/ItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/mapper/ItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/com/lanou3g/test/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/MBG01/src/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap-table.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/bootstrap-table-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/bootstrap-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/bootstrap-table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/bootstrap-table.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/src/main/webapp/static/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap-table.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/bootstrap-table-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/bootstrap-table-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/bootstrap-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/bootstrap-table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/bootstrap-table.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/bbc/target/bbc/static/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap-table.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/bootstrap-table-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/bootstrap-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/bootstrap-table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/bootstrap-table.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/src/main/webapp/static/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap-table.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/bootstrap-table-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/bootstrap-table-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/bootstrap-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/bootstrap-table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/bootstrap-table.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/code0620_bookstraptable_demo/target/c0de0619_ssm_demo/static/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap-table.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/bootstrap-table-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/bootstrap-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/bootstrap-table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/bootstrap-table.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/src/main/webapp/static/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap-table.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/bootstrap-table-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/bootstrap-table-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/bootstrap-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/bootstrap-table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/bootstrap-table.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/框架/exam_demo/target/exam_demo/static/js/npm.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_goods_store@localhost [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_goods_store@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_goods_store@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_goods_store: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_goods_store@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_goods_store: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="tb_order: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_goods_store@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_goods_store: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="tb_order_item: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1200765919">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="35" />
+          <entry key="properties" value="2" />
+          <entry key="sql" value="6" />
+          <entry key="tb_goods" value="1" />
+          <entry key="tb_goods_category" value="2" />
+          <entry key="tb_order" value="1" />
+          <entry key="tb_order_item" value="1" />
+          <entry key="tb_user" value="1" />
+          <entry key="xml" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="6" />
+          <entry key="JAVA" value="35" />
+          <entry key="Properties" value="2" />
+          <entry key="Scratch" value="6" />
+          <entry key="XML" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="509" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="28" />
+          <entry key="xml" value="1274" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="509" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="SQL" value="24" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="1250" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+    </session>
+    <session id="1350959308">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://fa24c815-e4fc-411d-b8e6-fe951ac79c1c/schema/db_goods_store/table/tb_order">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://fa24c815-e4fc-411d-b8e6-fe951ac79c1c/schema/db_goods_store/table/tb_order_item">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1300">
+              <caret line="50" column="17" selection-start-line="21" selection-start-column="2" selection-end-line="50" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/PersonMapper.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1061#1062#0" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/GoodsCategory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/CommonsMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="806">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/GoodsMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Mapper.xml" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/TbOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/TbGoods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/TbGoodsCategory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lanou/demo/mapper/GoodsCategoryMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lanou/demo/mapper/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/GoodsCategory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/test/com/lanou/demo/mapper/CategoryMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lanou/demo/mapper/GoodsMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/com/lanou/demo/mapper/GoodsMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/CategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lanou/demo/mapper/UserMapper.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f0be67a7-ba6f-4f96-ac74-83969a42b254/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/test/com/lanou/demo/mapper/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/CommonsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/UserMapper.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="84" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mybatis_result_map(09_27)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_result_map(09_27)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_result_map(09_27)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_result_map(09_27)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_result_map(09_27)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_result_map(09_27)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_result_map(09_27)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_result_map(09_27)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_result_map(09_27)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_result_map(09_27)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_result_map(09_27)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_result_map(09_27)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_result_map(09_27)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_result_map(09_27)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538053642549" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lanou.demo.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lanou.demo.mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\mybatis_result_map(09_27)\src\main\resources\com\lanou\demo\mapper" />
+      <recent name="E:\IdeaProjects\mybatis_result_map(09_27)\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.UserMapperTest.test1">
+    <configuration name="CategoryMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_result_map(09_27)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lanou.demo.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lanou.demo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.lanou.demo.mapper.CategoryMapperTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryMapperTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_result_map(09_27)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lanou.demo.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lanou.demo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.lanou.demo.mapper.CategoryMapperTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_result_map(09_27)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lanou.demo.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lanou.demo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.lanou.demo.mapper.GoodsMapperTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsMapperTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_result_map(09_27)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lanou.demo.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lanou.demo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.lanou.demo.mapper.GoodsMapperTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_result_map(09_27)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lanou.demo.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lanou.demo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.lanou.demo.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CategoryMapperTest.test2" />
+      <item itemvalue="JUnit.CategoryMapperTest" />
+      <item itemvalue="JUnit.GoodsMapperTest.test1" />
+      <item itemvalue="JUnit.GoodsMapperTest" />
+      <item itemvalue="JUnit.UserMapperTest.test1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserMapperTest.test1" />
+        <item itemvalue="JUnit.GoodsMapperTest.test1" />
+        <item itemvalue="JUnit.CategoryMapperTest" />
+        <item itemvalue="JUnit.GoodsMapperTest" />
+        <item itemvalue="JUnit.CategoryMapperTest.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ddf6529-097c-47ac-a89b-0daa58e61b22" name="Default Changelist" comment="" />
+      <created>1538012282725</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538012282725</updated>
+      <workItem from="1538012286881" duration="22997000" />
+      <workItem from="1538093947098" duration="597000" />
+      <workItem from="1538179531091" duration="595000" />
+      <workItem from="1539591401589" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserMapperTest_test1 - 2018.09.27 at 16h 14m 55s.xml">
+      <configuration name="UserMapperTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_test1 - 2018.09.27 at 16h 15m 05s.xml">
+      <configuration name="UserMapperTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_test1 - 2018.09.27 at 16h 15m 12s.xml">
+      <configuration name="UserMapperTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_test1 - 2018.09.27 at 16h 19m 20s.xml">
+      <configuration name="UserMapperTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_test1 - 2018.09.27 at 16h 22m 14s.xml">
+      <configuration name="UserMapperTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_test1 - 2018.09.27 at 16h 43m 11s.xml">
+      <configuration name="UserMapperTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_test1 - 2018.09.27 at 16h 44m 08s.xml">
+      <configuration name="UserMapperTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_test1 - 2018.09.27 at 16h 44m 50s.xml">
+      <configuration name="UserMapperTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_test1 - 2018.09.27 at 16h 52m 56s.xml">
+      <configuration name="UserMapperTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_test1 - 2018.09.27 at 16h 54m 33s.xml">
+      <configuration name="UserMapperTest.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24203000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="84" width="1920" height="1082" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12150538" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.45300952" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.32911393" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.3780359" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.56283" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Translate" order="6" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.13924731" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.117741935" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="0" visible="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32911393" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="right" id="Translate" order="3" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.1155914" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/lanou/demo/mapper/GoodsMapperTest.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://f0be67a7-ba6f-4f96-ac74-83969a42b254/schema/db_goods_store/table/tb_goods" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/mapper/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/mapper/GoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/lanou/demo/mapper/CategoryMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/lanou/demo/mapper/GoodsMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f0be67a7-ba6f-4f96-ac74-83969a42b254/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/lanou/demo/mapper/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f0be67a7-ba6f-4f96-ac74-83969a42b254/schema/db_goods_store/table/tb_user" />
+    <entry file="das://f0be67a7-ba6f-4f96-ac74-83969a42b254/schema/db_goods_store/table/tb_goods_category" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/mapper/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f0be67a7-ba6f-4f96-ac74-83969a42b254/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fa24c815-e4fc-411d-b8e6-fe951ac79c1c/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://fa24c815-e4fc-411d-b8e6-fe951ac79c1c/schema/db_goods_store/table/tb_order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fa24c815-e4fc-411d-b8e6-fe951ac79c1c/schema/db_goods_store/table/tb_order_item">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="50" column="17" selection-start-line="21" selection-start-column="2" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/PersonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/GoodsCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/CommonsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

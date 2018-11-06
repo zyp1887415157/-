@@ -1,0 +1,84 @@
+
+/*代表所有的标签*/
+* {
+    color: darksalmon;
+}
+
+body{
+    background-color: #dcdecc;
+    background-image: url("../image/timg.jpg");
+    /*调整图片平铺方式*/
+    background-repeat: no-repeat;
+    /*调整图片位置*/
+    background-position: center;
+    /*背景固定*/
+    background-attachment: local;
+}
+
+a{
+    font-size: 2.5em;
+    text-decoration: none;
+}
+a:link{
+    /*默认状态*/
+    color: red;
+}
+a:visited{
+    /*访问之后的状态*/
+    color: blueviolet;
+}
+a:hover{
+    /*鼠标焦点的状态*/
+    color: yellow;
+}
+a:active{
+    /*按下的状态*/
+    color: deeppink;
+}
+
+/*标签选择器*/
+p {
+    background-color: aqua;
+    font-size: 2em;
+    /*字体样式*/
+    font-family: "Baoli SC";
+    /*斜体*/
+    font-style: italic;
+}
+
+ol{
+    display: inline;
+    /*list-style-type: upper-alpha;*/
+    list-style-type: circle;
+    /*list-style-image: url("../image/timg.jpg");*/
+}
+
+/*id选择器*/
+#a {
+    color: red;
+}
+
+/*类选择器*/
+p.bra {
+    color: blue;
+    font-size: 3em;
+    /*字体位置*/
+    text-align: center;
+    /*下划线*/
+    text-decoration: underline;
+}
+
+#d {
+    color: green;
+    font-size: 30px;
+}
+
+#e {
+    color: greenyellow;
+    font-size: 3em;
+}
+
+div pre {
+    font-size: 3em;
+    color: fuchsia;
+}

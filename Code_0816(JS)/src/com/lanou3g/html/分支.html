@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分支</title>
+</head>
+<body>
+<script>
+    //判断两个值是否相等
+    var x = 3;
+    var y = '3';
+    // == 比较的是两个值是否相等,忽略数据类型
+    // === 在==的基础上, 也需要判断数据类型是否一致
+    if (x == y) {
+        document.write('<h2>两个值相等</h2>')
+    } else {
+        alert('两个值不相等')
+    }
+
+    var flag = NaN;
+    //在if中, number 类型的,只有0和NaN 表示false,其他的都是true;
+    //string 类型 只有空串代表false  其他都是true
+    // null表示false
+    // undefined表示 false
+    //总结一句话  只要这个值不正常  就是false
+    if (NaN == NaN) {
+        document.write('<h1>true</h1>')
+    } else {
+        document.write('<h1>false</h1>')
+    }
+
+    //在 switch 中是使用===判断case的
+    switch (y) {
+        case 3:
+            break;
+        case '3':
+            break;
+        default:
+            break;
+    }
+    //循环
+    for (var i = 0; i < 10; i++) {
+        document.write(`<h1 style="color: fuchsia">标题${i}</h1>`);
+    }
+
+    document.write('"Hello World"');
+
+    //数组
+    var arr = [1, 2, true, 'xx'];
+    //数组长度
+    arr.length;
+    //arr.pop() 栈的结构,弹出来一个末尾的元素
+    //arr.push() 向栈中压入一个元素,添加在数组末尾
+    // 是把一个数组 转成一个字符串  ,每个元素之间添加一个符号
+    var s = arr.join('-');
+    document.write('<br>' + '<h1>' + s + '</h1>')
+
+</script>
+</body>
+</html>

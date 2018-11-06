@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<GoodsList>
+    <Goods>
+        <id>10001</id>
+        <name>甜辣鸭脖</name>
+        <price>12.90</price>
+        <quantity>10</quantity>
+        <unit>袋</unit>
+    </Goods>
+    <Goods>
+        <id>10002</id>
+        <name>威化饼干</name>
+        <price>27.80</price>
+        <quantity>8</quantity>
+        <unit>袋</unit>
+    </Goods>
+    <Goods>
+        <id>10003</id>
+        <name>手撕牛肉</name>
+        <price>68.8</price>
+        <quantity>10</quantity>
+        <unit>袋</unit>
+    </Goods>
+</GoodsList>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--一级缓存是在同一个SqlSession下生效
+        二级缓存是同一个mapper下生效
+    -->
+
+    <!--
+   mybatis 自带了一级缓存，一级缓存的作用范围是同一个SqlSession
+   也就是说，在同一个SQLSession下，进行多次同样的查询，会有缓存。
+   在statement标签中，有flushCache属性，表示是否清除缓存区，
+   select的默认值是false，insert、update、delete默认值是true
+   -->
+    <settings>
+        <!--这个开关表示是否开启二级缓存功能，默认值为true
+        注意：SqlSession关闭的时候才会向二级缓存中存储数据
+        实体类必须序列化
+        -->
+        <!--在select中可以使用useCache属性控制该Statement是否使用缓存-->
+        <!--可以自定义2级缓存的框架 ehcache oscache-->
+    <setting name="cacheEnabled" value="true"/>
+        <!--懒加载开关，默认值为false，
+        如果设置true，关联的sql会根据需要的时候才会查询
+        如果为false，那么会在查询的时候，会把所有关联的sql执行-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!--积极的懒加载，调用某个对象的任意方法，都会把它关联的其他sql进行调用-->
+        <!--例如，获取goods的名字属性，也会查询该商品的类别-->
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <!--下划线形式的列名与小驼峰形式的属性名自动映射-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="autoMappingBehavior" value="FULL"/>
+    </settings>
+
+    <!--为实体类配置别名  
+    在以后的Mapper.xml配置文件中
+    所有用到全限定名的位置，都可以使用别名来代替
+    -->
+    <typeAliases>
+        <!--
+        扫描entity包，自动为实体类创建别名，
+        默认的别名格式为类名的小驼峰形式-->
+        <!--<package name="com.lanou.demo.entity"/>-->
+        <typeAlias type="com.lanou.demo.entity.GoodsCategory" alias="Category"/>
+        <typeAlias type="com.lanou.demo.entity.Goods" alias="Goods"/>
+        <typeAlias type="com.lanou.demo.entity.User" alias="User"/>
+        <typeAlias type="com.lanou.demo.entity.Order" alias="Order"/>
+        <typeAlias type="com.lanou.demo.entity.OrderItem" alias="OrderItem"/>
+        <typeAlias type="com.lanou.demo.entity.OrderMoney" alias="OrderMoney"/>
+        <typeAlias type="com.lanou.demo.entity.UserMoney" alias="UserMoney"/>
+    </typeAliases>
+    <environments default="dev">
+        <environment id="dev">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/db_goods_store"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource="com/lanou/demo/mapper/CommonsMapper.xml"/>
+        <!--扫描包  会加载该包下所有的类（或接口）所对应的mapper.xml映射文件-->
+        <package name="com.lanou.demo.mapper"/>
+    </mappers>
+</configuration>

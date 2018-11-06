@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/messages_zh.js"></script>
+    <script>
+        $().ready(function () {
+            $('#form1').validate({
+                rules:{
+                    password1:{
+                        required: true,
+                        minlength:6
+                    },
+                    password2:{
+                        required: true,
+                        minlength:6,
+                    }
+                },
+                messages:{
+                    password1:{
+                        required:'必填',
+                        minlength:'密码至少为6位'
+                    },
+                    password2:{
+                        required:'必填',
+                        minlength:'密码至少6位',
+                    }
+                }
+            })
+        })
+    </script>
+    <style>
+        .error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<form id="form1" action="register" method="post">
+    用户名:&emsp;<input id="user"  type="text" name="username" value="">
+    <br>
+    密&emsp;码:&emsp;<input  id="pass" type="password" name="password1" value=""><br>
+    确认密码:<input id="pass2" type="password" name="password2" value=""><br>
+    性别:&emsp;<input id="gender" type=radio name="gender" value="男">男
+    <input type=radio name="gender" value="女">女<br>
+    <input id="inp" type="submit" value="注册">
+</form>
+<script>
+</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <style>
+        .s{
+            color: red;
+            float: right;
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body class="container">
+<form action="login" method="post">
+    用户名:<input type="text" name="username"><br>
+    密&emsp;码:<input type="password" name="password1"><br>
+    <input id="keywords" name="code" value="请输入验证码">
+    <div id="div" style="width: 50%">
+        <img src="code">
+    </div>
+    <input class="btn btn-primary" type="submit" value="登录">
+    <a href="register.html"><button>注册</button></a>
+</form>
+<script>
+    $(function () {
+        var value = $('#keywords').val();
+        $('#keywords').focus(function () {
+            if ($(this).val() === value) {
+                $(this).val("");
+            }
+        });
+        $('#keywords').blur(function () {
+            if ($(this).val() === "") {
+                $(this).val(value);
+            }
+        });
+
+        $('#keywords').blur(function () {
+            var value = $('#keywords').val();
+            let url = "http://localhost:8080/login";
+            let data = {
+                code: value
+            };
+            $.post(url, data, requestFinished)
+
+        });
+
+        function requestFinished(resp) {
+            console.log(resp);
+            var span = $('<span></span>').addClass('s').html(resp);
+            $('#div').append(span)
+        }
+    });
+
+</script>
+</body>
+</html>

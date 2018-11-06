@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-2.2.4.min.js"></script>
+
+    <style>
+        div {
+            width: 300px;
+            height: 200px;
+        }
+
+        .light {
+            border: 5px solid yellow;
+            background-color: fuchsia;
+        }
+
+        .dark {
+            border: 5px solid lightskyblue;
+            background-color: blue;
+        }
+    </style>
+    <script>
+        //添加元素  并赋值
+
+        $(function () {
+
+            var list = $('#list');
+
+            //append
+            var lic = $('<li></li>').text('c++');
+            list.append(lic);
+            //prepend
+            var lik = $('<li></li>').html('<a href="#">链接</a>');
+            list.prepend(lik);
+            //before   与所选标签同一级别
+            var btn = $('<button></button>').text('点我')
+            list.before(btn);
+            //after
+            var p = $('<p></p>').text('大美女')
+            list.after(p)
+            // 可以一起写
+            // list.append(lic).prepend(lik).before(btn).after(p)
+            btn.click(function () {
+                //来回切换
+                $('div').toggleClass('dark');
+                $('p').css({
+                    color : '#ffff00',
+                    'background-color' : 'red'
+                })
+            });
+
+            $('li:odd').css('background-color','green');
+            $('li:even').css('background-color','red');
+        })
+    </script>
+</head>
+<body>
+<!--before-->
+<ul id="list">
+    <!--prepend -->
+    <li>java</li>
+    <li>Js</li>
+    <li>html</li>
+    <!--append 把元素添加到该位置-->
+</ul>
+<!--after-->
+
+<div class="light">
+
+</div>
+</body>
+</html>

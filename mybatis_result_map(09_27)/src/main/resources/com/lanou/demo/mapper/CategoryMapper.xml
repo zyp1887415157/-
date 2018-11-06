@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lanou.demo.mapper.CategoryMapper">
+
+    <!--为例减少重复的代码，可以用resultMap的继承机制-->
+    <resultMap id="CategoryMap" type="Category" extends="Commons.CategoryMap">
+        <!--<id column="category_id" property="categoryId"/>-->
+        <!--<result column="category_name" property="categoryName"/>-->
+        <collection property="goodsList" ofType="Goods" resultMap="Commons.goodsMap">
+            <!--<id column="goods_id" property="goodsId"/>-->
+            <!--<result column="category_id" property="categoryId"/>-->
+            <!--<result column="goods_name" property="goodsName"/>-->
+            <!--<result column="goods_price" property="goodsPrice"/>-->
+        </collection>
+    </resultMap>
+
+    <select id="findAllSimple" resultMap="Commons.CategoryMap">
+        select *
+        from tb_goods_category
+    </select>
+
+    <select id="findAll" resultMap="CategoryMap">
+        select category.category_id, category_name, goods_id, goods_name, goods_price
+        from tb_goods_category category
+                 left join tb_goods good on category.category_id = good.category_id
+    </select>
+</mapper>

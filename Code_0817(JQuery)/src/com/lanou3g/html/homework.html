@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #cc {
+            border: 5px solid yellow;
+            width: 400px;
+            background-color: orange;
+        }
+    </style>
+    <script src="../js/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+<label for="i1">id:<input id="i1"></label>
+<label for="i2">姓名:<input id="i2"></label>
+<label for="i3">生日:<input id="i3"></label>
+<label for="i4">性别:<input id="i4"></label>
+<button id="btn">发送</button>
+<table  id="cc" border="3px" >
+    <caption>学生表</caption>
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>姓名</th>
+        <th>生日</th>
+        <th>性别</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody id="i5">
+    </tbody>
+</table>
+<script>
+    $(function () {
+        $('#btn').click(function () {
+            var tr = $('<tr></tr>');
+            tr.append(
+                $('<th></th>').text($('#i1').val()),
+                $('<th></th>').text($('#i2').val()),
+                $('<th></th>').text($('#i3').val()),
+                $('<th></th>').text($('#i4').val()),
+                $('<th></th>').html($('<button id="b1"></button>').text('删除').click(function () {
+                    this.parentElement.parentElement.remove()
+                })
+            ))
+            ;
+            $('#i5').append(tr);
+
+        })
+    })
+</script>
+</body>
+</html>

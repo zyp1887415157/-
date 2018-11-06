@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax练习</title>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        .left {
+            width: 40%;
+            border: 1px solid red;
+            float: left;
+        }
+
+        .right {
+            width: 60%;
+            border: 1px solid blue;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<!--AJAX Async Javascript And xml-->
+<!--就是在html中使用js异步发送网络请求,
+将请求的结果通过dom操作显示到页面中,
+这样一来,页面整体不需要刷新也可以更新局部的页面-->
+<div class="left">
+    <h4>这是GET请求</h4>
+    <button id="btn1">GET</button>
+    <h4>这是POST-JSON请求</h4>
+    <button id="btn2">POST-JSON请求</button>
+    <h4>GET-简单请求</h4>
+    <button id="btn3">GET-简单请求</button>
+    <h4>POST-简单请求</h4>
+    <button id="btn4">POST-简单请求</button>
+</div>
+<div class="right">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>姓名</th>
+            <th>密码</th>
+            <th>性别</th>
+        </tr>
+        </thead>
+        <tbody id="tb">
+
+        </tbody>
+    </table>
+</div>
+<script>
+    $(function () {
+        // $('#btn1').click(function () {
+        //     // 添加btn1的点击事件
+        //     //保存的是请求相关的配置
+        //     var setting = {
+        //         url: 'http://localhost:8080/ajax',
+        //         method: 'post',
+        //         headers: {
+        //             'Content-Type': 'application/x-www-form-urlencoded'
+        //         },
+        //         data: {
+        //             username: 'risky',
+        //             password: 'pass78990'
+        //         }
+        //     };
+
+            // $('#btn2').click(function () {
+            //     // 添加btn1的点击事件
+            //     //保存的是请求相关的配置
+            //     var data = {
+            //         username: 'risky',
+            //         password: 'pass78990'
+            //     }
+            //     var setting = {
+            //         url: 'http://localhost:8080/ajax',
+            //         method: 'post',
+            //         headers: {
+            //             'Content-Type': 'application/json'
+            //         },
+            //         data: JSON.stringify(data)  //把对象转成JSON数据
+            //     };
+            //     //done()中传递一个回调函数
+            //     //请求发送之后,接受到响应,该函数就会执行
+            //     $.ajax(setting).done(req  uestFinished);
+            // })
+
+            $('#btn3').click(function () {
+                let url = "http://localhost:8080/ajax";
+                $.get(url, requestFinished)
+            });
+            $('#btn4').click(function () {
+                let url = "http://localhost:8080/ajax";
+                let data = {
+                    id: 1,
+                    username: '李四',
+                    age: 18
+                };
+                // $.post(url,data,requestFinished)
+                $.post(url,JSON.stringify(data),requestFinished)
+            })
+        });
+        function requestFinished(resp, success) {
+            console.log(resp, success);
+            /*
+        第一个参数 表示网络请求的结果
+        第二个参数 表示网络请求是否成功
+         */
+            if (success === 'success') {
+                var body = $('#tb');
+                //清除body原有的数据
+                body.empty();
+                for (const item of resp) {
+                    var tr = $('<tr></tr>');
+                    var id = $('<td></td>').text(item.username);
+                    var name = $('<td></td>').text(item.password);
+                    var age = $('<td></td>').text(item.gender);
+                    tr.append(id).append(name).append(age);
+                    body.append(tr);
+                }
+            }
+        // }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/casitem.js"></script>
+
+    <style>
+        #page-view{
+            float: left;
+            border: 2px solid red;
+        }
+    </style>
+
+
+</head>
+<body>
+<div style="float: left">
+<table border="2px">
+    <thead>
+    <tr>
+        <td>gameID</td>
+        <td>gameName</td>
+        <td>platform</td>
+        <td>publisher</td>
+        <td>globalSales</td>
+        <td>userScore</td>
+    </tr>
+    </thead>
+    <tbody id="body">
+
+    </tbody>
+</table>
+</div>
+
+<div id="page-view" >
+    <form action="">
+        页码:<input type="text" name="page"><br>
+        行数:<input type="text" name="count"><br>
+        <input type="submit" value="提交">
+    </form>
+    <div>
+        <button id="prev">上一页</button>
+        <button id="next">下一页</button>
+    </div>
+</div>
+</body>
+</html>

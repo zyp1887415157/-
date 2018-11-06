@@ -1,0 +1,28 @@
+[
+  {
+    "albumName": "Jay",
+    "musicList": [
+      {
+        "musicName": "斗牛",
+        "duration": 100
+      },
+      {
+        "musicName": "娘子",
+        "duration": 150
+      }
+    ]
+  },
+  {
+    "albumName": "七里香",
+    "musicList": [
+      {
+        "musicName": "黑色幽默",
+        "duration": 100
+      },
+      {
+        "musicName": "听妈妈的话",
+        "duration": 150
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加删除元素</title>
+</head>
+<body>
+<!--
+有一个输入框,有两个按钮,还有一个列表
+按钮  一个是添加  一个是清空
+点击添加按钮将输入框内容添加到列表中
+点击清空按钮  就清空列表
+-->
+<input id="input" type="text">
+<button id="btnAdd">添加</button>
+<button id="btnClear">清空</button>
+<ul id="list">
+    <li>Java</li>
+</ul>
+<script>
+    // 获取三个标签
+    var input = document.getElementById("input");
+    var btnAdd = document.getElementById("btnAdd");
+    var btnClear = document.getElementById("btnClear");
+    var list = document.getElementById("list");
+    //设置两个按钮的点击事件
+    btnAdd.onclick = function () {
+        //获取文本框中的内容
+        var value = input.value;
+        //创建一个li标签
+        var li = document.createElement("li")
+        //  把文本框中的内容放到li中
+        li.innerText = value;
+        //把li放入到ul中
+        list.appendChild(li);
+    }
+
+    btnClear.onclick = function () {
+        //获取ul中的所有子元素
+        console.log(this)
+        var children = list.children;
+        // var length = children.length
+        for (var i = 0; i<children.length;){
+            list.removeChild(children[i])
+        }
+    }
+    //创建tr  td  在append到tablebody中
+</script>
+</body>
+</html>

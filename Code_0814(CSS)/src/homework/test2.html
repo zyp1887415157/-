@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #a{
+            width: 0px;
+            height: 0px;
+            border: 50px solid white;
+            border-top: 50px solid #3e8f3e;
+            border-bottom: none ;
+        }
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            float: left;
+        }
+        .box2{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+        }
+        .box3{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<!--
+display:inline-block
+行内元素 和 块级元素 没有太明显的界限
+可以通过display进行转换
+-->
+<!--
+浮动性质1:元素脱标
+元素脱标的意思是,标明了浮动的元素
+会脱离标准文档流
+-->
+<!--
+box2  由于没有设置浮动 于是box2 现在变成了标准文档流的第一个
+而box1 从标准文档流中脱离出去  并且在另一个层面上进行排列
+-->
+<!--
+原本不能设置宽高的span标签,由于浮动 脱离了标准文档流
+从而可以设置宽高了  实际上是html将其转换为块元素来渲染的
+并且还能在一行,可以认为,浮动的元素 没有行内元素和块元素的分类了
+-->
+<div id="a">
+fdsgsdfg
+</div>
+<div class="box1">
+</div>
+
+<div class="box2">
+</div>
+<hr>
+<span class="box3">人生只有走出来的美丽,没有等出来的辉煌</span>
+</body>
+</html>
