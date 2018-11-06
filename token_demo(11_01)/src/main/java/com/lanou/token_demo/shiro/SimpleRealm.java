@@ -49,6 +49,7 @@ public class SimpleRealm extends AuthorizingRealm {
         // 获取登陆成功时存储的主要信息
         // 实际上是token
         Object principal = principals.getPrimaryPrincipal();
+
         String jwtToken = (String) principal;
         // 从token信息中获取到用户id
         Integer userId = JwtUtils.getUserId(jwtToken);
