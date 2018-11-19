@@ -1,12 +1,16 @@
 package com.lanou.activemq.controller;
 
 
+import org.springframework.scheduling.annotation.Scheduled;
+
 import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.util.Date;
 import java.util.Properties;
+
+
 
 public class SendMail {
 
@@ -24,6 +28,8 @@ public class SendMail {
     // 收件人邮箱（替换为自己知道的有效邮箱）
     public static String receiveMailAccount = "15940575448@163.com";
 
+    // 定时任务  方法注解
+    @Scheduled(fixedDelayString = "10000")
     public static void main(String[] args) throws Exception {
         // 1. 创建参数配置, 用于连接邮件服务器的参数配置
         Properties props = new Properties();                    // 参数配置
