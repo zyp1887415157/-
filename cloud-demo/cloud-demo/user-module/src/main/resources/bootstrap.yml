@@ -1,0 +1,11 @@
+spring:
+  // 名字要跟shared配置文件中的名字相同
+  application:
+    name: user-module
+  cloud:
+    config:
+      //  要去哪个地址找配置文件
+      uri: http://localhost:8760
+      fail-fast: true
+  profiles:
+    active: dev

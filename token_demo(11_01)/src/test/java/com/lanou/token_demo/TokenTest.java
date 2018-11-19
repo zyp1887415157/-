@@ -10,6 +10,8 @@ import com.lanou.token_demo.utils.JwtUtils;
 import org.junit.Test;
 
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 public class TokenTest {
 
@@ -75,6 +77,29 @@ public class TokenTest {
         Thread.sleep(7000);
         String newToken = JwtUtils.autoRequire(token);
         System.out.println(newToken);
+    }
+
+    @Test
+    public void test3(){
+        int sum = 0;
+        for (int i = 0; i < 20; i++) {
+            for (int j = 0; j <i ; j++) {
+                sum = sum+i;
+                System.out.print(i+"+"+sum+"="+sum+" ");
+            }
+            System.out.println(" ");
+        }
+
+//        int sum = 0;
+//        for (int i = 0; i < 20; i++) {
+//            for (int j = 0; j < i; j++) {
+//                sum = i + j;
+//                System.out.print(i+"+"+j+"="+sum+" ");
+//            }
+//            System.out.println(" ");
+//        }
+
+
     }
 
 }

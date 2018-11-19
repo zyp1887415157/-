@@ -1,0 +1,4 @@
+// 自己需要的依赖
+dependencies {
+    implementation('org.springframework.cloud:spring-cloud-config-server')
+}

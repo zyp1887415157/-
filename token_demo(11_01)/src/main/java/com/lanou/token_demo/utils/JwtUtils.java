@@ -7,6 +7,8 @@ import com.auth0.jwt.exceptions.JWTVerificationException;
 import com.auth0.jwt.interfaces.DecodedJWT;
 
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class JwtUtils {
@@ -67,6 +69,7 @@ public class JwtUtils {
         Integer userId = jwt.getClaim("userId").asInt();
         // 返回新的token
         return newToken(userId);
+
 
     }
 

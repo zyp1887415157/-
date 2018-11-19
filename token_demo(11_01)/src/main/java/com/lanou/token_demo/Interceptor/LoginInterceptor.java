@@ -25,6 +25,7 @@ public class LoginInterceptor implements HandlerInterceptor {
             JwtToken jwtToken = new JwtToken(taken);
             SecurityUtils.getSubject().login(jwtToken);
             String newToken = (String) SecurityUtils.getSubject().getPrincipal();
+
             response.addHeader("Authentication",newToken);
             return true;
         } catch (Exception e) {

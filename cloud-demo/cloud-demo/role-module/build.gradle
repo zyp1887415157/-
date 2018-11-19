@@ -1,0 +1,8 @@
+dependencies {
+    implementation("org.springframework.boot:spring-boot-starter-web")
+    // 读配置文件
+    implementation('org.springframework.cloud:spring-cloud-starter-config')
+    // 注册到eureka上
+    implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
+    testCompile("junit:junit")
+}
