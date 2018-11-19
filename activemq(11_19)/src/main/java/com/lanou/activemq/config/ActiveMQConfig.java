@@ -26,7 +26,6 @@ public class ActiveMQConfig {
     @Bean
     public Queue shortMessageQueue() {
         // 命名规范
-        System.out.println("hahah");
         return new ActiveMQQueue(QUEUE_SHORT_MESSAGE);
     }
 
