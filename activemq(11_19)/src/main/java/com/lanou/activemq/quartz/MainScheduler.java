@@ -9,6 +9,8 @@ public class MainScheduler {
     public static Scheduler getScheduler() throws SchedulerException{
         SchedulerFactory schedulerFactory = new StdSchedulerFactory();
         return schedulerFactory.getScheduler();
+
+
     }
 
 
