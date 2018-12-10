@@ -11,4 +11,6 @@ public class MsgEntity implements Serializable {
     private Long id;
     private String mobile;
     private String message;
+
+
 }

@@ -38,7 +38,6 @@ public class TokenTest {
         System.out.println(token);
 
 
-
     }
 
 
@@ -80,26 +79,54 @@ public class TokenTest {
     }
 
     @Test
-    public void test3(){
-        int sum = 0;
-        for (int i = 0; i < 20; i++) {
-            for (int j = 0; j <i ; j++) {
-                sum = sum+i;
-                System.out.print(i+"+"+sum+"="+sum+" ");
+    public void test3() {
+
+        String s1 = "Programming";
+        String s2 = new String("Programming");
+        String s3 = "Program";
+        String s4 = "ming";
+        String s5 = "Program" + "ming";
+        String s6 = s3 + s4;
+        System.out.println(s1 == s2);
+        System.out.println(s1 == s5);
+        System.out.println(s1 == s6);
+        System.out.println(s1 == s6.intern());
+        System.out.println(s2 == s2.intern());
+
+    }
+
+    @Test
+    public void test4() {
+        for (int i = 1; i < 10; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j + "*" + i + "=" + i * j + "\t");
             }
-            System.out.println(" ");
+            System.out.println();
         }
+    }
 
-//        int sum = 0;
-//        for (int i = 0; i < 20; i++) {
-//            for (int j = 0; j < i; j++) {
-//                sum = i + j;
-//                System.out.print(i+"+"+j+"="+sum+" ");
-//            }
-//            System.out.println(" ");
-//        }
+    @Test
+    public void test5() {
+        int array[] = {2, 5, 7, 3, 6, 3};
 
+        for (int i = 0; i < array.length - 1; i++) {
+            for (int j = 0; j < array.length - 1 - i; j++) {
+                if (array[i] > array[i + 1]) {
+                    int c = array[i];
+                    array[i] = array[i + 1];
+                    array[i + 1] = c;
+                }
+            }
+        }
+        System.out.println();
+        for (int i : array) {
+            System.out.println(i);
+        }
+    }
 
+    @Test
+    public void test6() {
+        System.out.println(Integer.valueOf(1)==Integer.valueOf(1));
     }
 
 }

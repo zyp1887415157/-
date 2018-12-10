@@ -18,5 +18,6 @@ ${error}
 <C:forEach var="errors" items="${errors}">
     ${errors.defaultMessage}<br>
 </C:forEach>
+
 </body>
 </html>

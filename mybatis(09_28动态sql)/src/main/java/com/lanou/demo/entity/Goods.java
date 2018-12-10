@@ -13,6 +13,11 @@ public class Goods {
   private GoodsCategory Category;
   private List<OrderItem> orderItemList;
 
+
+  public Goods(int goodsId) {
+    this.goodsId = goodsId;
+  }
+
   @Override
   public String toString() {
     return "Goods{" +

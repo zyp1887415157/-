@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb6d853e-d8d1-4378-8114-743a76abe226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SSMDemo/.idea/SSMDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMDemo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMDemo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSMDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testMaven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shoppingstore/.idea/Shoppingstore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shoppingstore/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shoppingstore/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shoppingstore/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shoppingstore/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shoppingstore/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0727反射/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0809数据库连接池/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcDemo09_13/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/body.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/body.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/desc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/desc.jsp" afterDir="false" />
@@ -173,37 +179,36 @@
       <change beforePath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/JDBCUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/MyResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/MyResultSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/MyStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/MyStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/http/HttpManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/http/HttpManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/MultiDownloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/MultiDownloadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/OnProgressListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/OnProgressListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/RealDownloadThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/RealDownloadThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/util/CloseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/util/CloseHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0813_html/libs/faq01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0813_html/libs/faq01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0813_html/libs/faq02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0813_html/libs/faq02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0813_html/libs/faq03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0813_html/libs/faq03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0814(CSS)/src/libs/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0814(CSS)/src/libs/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0815(CSS)/src/com/lanou3g/image/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0815(CSS)/src/com/lanou3g/image/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0815(CSS)/src/com/lanou3g/image/tel.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0815(CSS)/src/com/lanou3g/image/tel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-table.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table-zh-CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0725线程/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0725线程/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0727反射/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0727反射/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/dataSources/ca620c22-a09d-421c-894b-fc75f3bd2cff.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/dataSources/ca620c22-a09d-421c-894b-fc75f3bd2cff.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/dataSources/ea9dc852-61de-4f34-8b6d-3fba74cb84ed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/dataSources/ea9dc852-61de-4f34-8b6d-3fba74cb84ed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0809数据库连接池/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0809数据库连接池/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0809数据库连接池/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0809数据库连接池/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring(09_25)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring(09_25)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../activemq(11_19)/src/main/java/com/lanou/activemq/entity/MsgEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../activemq(11_19)/src/main/java/com/lanou/activemq/entity/MsgEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisDemo(09_26)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisDemo(09_26)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisDemo(09_26)/src/main/resources/PersonMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisDemo(09_26)/src/main/resources/PersonMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisDemo(09_26)/src/test/com.lanou.demo/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisDemo(09_26)/src/test/com.lanou.demo/LoggerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-jpa2/src/main/java/com/lanou/springjpa2/Repository/RoleInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-jpa2/src/main/java/com/lanou/springjpa2/Repository/RoleInfoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-jpa2/src/test/java/com/lanou/springjpa2/SpringJpa2ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-jpa2/src/test/java/com/lanou/springjpa2/SpringJpa2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMvc(09_17代码)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMvc(09_17代码)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMvc(09_17代码)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMvc(09_17代码)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMvc(09_20)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMvc(09_20)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMvc(09_20)/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMvc(09_20)/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMvc(09_20)/src/main/webapp/WEB-INF/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springMvc(09_20)/src/main/webapp/WEB-INF/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc(09_18)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc(09_18)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc(09_18)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc(09_18)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvcDemo09_13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvcDemo09_13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvcDemo09_13/springmvcDemo09_13.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvcDemo2(09_14)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvcDemo2(09_14)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvcDemo2(09_14)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvcDemo2(09_14)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/utils/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../token_demo(11_01)/src/test/java/com/lanou/token_demo/TokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/test/java/com/lanou/token_demo/TokenTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/model/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/pojo/User.java" afterDir="false" />
@@ -503,30 +508,79 @@
     <session id="1370529449">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.77" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.file.types.edit" />
-      <usages-collector id="statistics.file.extensions.open" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="12" />
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.file.types.open" />
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="12" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="869">
+              <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/GoodsCategory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/CommonsMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/OrderMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
@@ -546,64 +600,47 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="104">
               <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/Goods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/lanou/demo/mapper/UserMapperTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/OrderItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1456">
-              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="26">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/OrderMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/OrderMoney.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+            <state relative-caret-position="52">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/CommonsMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/UserMoney.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="104">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -618,7 +655,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -630,6 +667,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/com/lanou/demo/mapper/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/Goods.java" />
       </list>
     </option>
   </component>
@@ -646,9 +684,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-92" />
-    <option name="y" value="211" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="78" />
+    <option name="y" value="61" />
     <option name="width" value="1920" />
     <option name="height" value="1082" />
   </component>
@@ -661,7 +699,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -740,6 +777,14 @@
               <item name="mybatis(09_28动态sql)" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis(09_28动态sql)" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis(09_28动态sql)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis(09_28动态sql)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -780,6 +825,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -790,7 +836,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Shoppingstore" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -897,6 +943,11 @@
       <workItem from="1539563917645" duration="603000" />
       <workItem from="1539649498838" duration="596000" />
       <workItem from="1539735799729" duration="594000" />
+      <workItem from="1543367921211" duration="81000" />
+      <workItem from="1543540595656" duration="159000" />
+      <workItem from="1543821327791" duration="800000" />
+      <workItem from="1543886989524" duration="3673000" />
+      <workItem from="1543970222288" duration="127000" />
     </task>
     <servers />
   </component>
@@ -933,13 +984,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6567000" />
+    <option name="totallyTimeSpent" value="11407000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-92" y="211" width="1920" height="1082" extended-state="1" />
-    <editor active="true" />
+    <frame x="78" y="61" width="1920" height="1082" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14139785" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14946237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -987,32 +1037,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/Order.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/UserMoney.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/OrderItem.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/Goods.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/OrderMoney.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2628f4ae-3750-4a39-8cee-a734f065a74d/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://2628f4ae-3750-4a39-8cee-a734f065a74d/schema/db_goods_store/table/tb_user" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/lanou/demo/mapper/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="962">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/GoodsCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1027,19 +1117,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/lanou/demo/mapper/UserMapperTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/UserMoney.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1456">
-          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="104">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/entity/OrderMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/CommonsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1050,26 +1155,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/CommonsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/lanou/demo/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
+        <state relative-caret-position="869">
           <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
         </state>
       </provider>

@@ -84,7 +84,7 @@ public class JwtUtils {
             Long start = jwt.getClaim("iat").asLong();
             Long end = jwt.getClaim("exp").asLong();
             // 存活时间 / 总时间  是否大于80%
-            if ((current - start) * 1.0 / (end - start) > 0.5) {
+            if ((current - start) * 1.0 / (end - start) > 0.8) {
                 // 返回新的token
                 return refreshToken(taken);
             } else {

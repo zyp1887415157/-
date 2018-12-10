@@ -1,7 +1,7 @@
 package com.lanou.entity;
 
 
-public class User {
+public class Person {
 
     private Integer id;
     private String name;

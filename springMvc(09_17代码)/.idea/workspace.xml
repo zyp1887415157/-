@@ -7,6 +7,109 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f7796fe-3a0a-4911-9dab-530fb06180e0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Shoppingstore/.idea/Shoppingstore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shoppingstore/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shoppingstore/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shoppingstore/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shoppingstore/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0727反射/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0809数据库连接池/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0827(文件上传)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sell(练习)/src/main/java/com/lanou/sell/entity/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sell(练习)/src/main/java/com/lanou/sell/repository/ProductCategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sell(练习)/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sell(练习)/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sell(练习)/src/test/java/com/lanou/sell/LoggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sell(练习)/src/test/java/com/lanou/sell/repository/ProductCategoryRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jpa/src/main/java/com/lanou/springjpa/entity/AdminInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jpa/src/main/java/com/lanou/springjpa/entity/RoleInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jpa/src/main/java/com/lanou/springjpa/repository/AdminInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jpa/src/main/java/com/lanou/springjpa/repository/RoleInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jpa2/src/main/java/com/lanou/springjpa2/Repository/ModuleRepositry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jpa2/src/main/java/com/lanou/springjpa2/Repository/RoleInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jpa2/src/main/java/com/lanou/springjpa2/Repository/RoleInfoRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jpa2/src/main/java/com/lanou/springjpa2/Repository/temp/RoleEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jpa2/src/main/java/com/lanou/springjpa2/controller/RoleInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jpa2/src/main/java/com/lanou/springjpa2/entity/RoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jpa2/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jpa2/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jpa2/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-shiro(11_02)/src/main/java/com/lanou/springshiro/shiro/RoleRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-shiro(11_02)/src/main/java/com/lanou/springshiro/shiro/SimpleToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-shiro(11_02)/src/main/java/com/lanou/springshiro/shiro/TestRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-shiro(11_02)/src/main/resources/shiro.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-shiro(11_02)/src/test/java/com/lanou/springshiro/ShiroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot(demo)/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot(demo)/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot(demo)/src/main/java/com/lanou/demo/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot(demo)/src/main/java/com/lanou/demo/service/CostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot(demo)/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot(demo)/src/main/resources/sf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot(demo2)/src/main/java/com/lanou/demo/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot(demo2)/src/main/java/com/lanou/demo/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot(demo2)/src/main/java/com/lanou/demo/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot(demo2)/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot(demo2)/src/main/resources/generator/aa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/Interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/Interceptor/MyWeMvcConfigurerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/Utils/Constans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/Utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/Utils/ResultWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/entity/SysPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/entity/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/exception/GlobaExceptionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/repository/UserInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/service/UserInfoServiceImple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/shiro/ShiroRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_shiro_test/src/main/java/com/lanou/spring_shiro_test/shiro/ShiroToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis(10_30)/src/main/java/com/lanou/springbootredis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis(10_30)/src/main/java/com/lanou/springbootredis/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis(10_30)/src/main/java/com/lanou/springbootredis/entity/RoleInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis(10_30)/src/main/java/com/lanou/springbootredis/mapper/RoleInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis(10_30)/src/main/java/com/lanou/springbootredis/service/RoleInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis(10_30)/src/main/java/com/lanou/springbootredis/service/RoleInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis(10_30)/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis(10_30)/src/test/java/com/lanou/springbootredis/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc练习/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc练习/src/java/com/lanou/controller/Upload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc练习/src/main/webapp/WEB-INF/jsp/upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/Interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/Interceptor/MyWeMvcConfigurerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/TokenDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/entity/SysPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/entity/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/exception/GlobaExceptionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/repository/UserInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/service/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/shiro/JwtRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/shiro/JwtToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/shiro/SimpleRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/shiro/SimpleUsernameToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/utils/ResultWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/test/java/com/lanou/token_demo/TokenDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/test/java/com/lanou/token_demo/TokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BookStore/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/body.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/body.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/desc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/out/artifacts/BookStore_war_exploded/adminjsps/admin/book/desc.jsp" afterDir="false" />
@@ -151,6 +254,7 @@
       <change beforePath="$PROJECT_DIR$/../../BookStore/web/menu/mymenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/menu/mymenu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../BookStore/web/menu/mymenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/menu/mymenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../BookStore/web/sql/bookstore.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BookStore/web/sql/bookstore.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NETCTOSS" beforeDir="false" afterPath="$PROJECT_DIR$/../../NETCTOSS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/model/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0514/src/com/lanou3g/hw0514/pojo/User.java" afterDir="false" />
@@ -172,42 +276,40 @@
       <change beforePath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/JDBCUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/MyResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/MyResultSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/MyStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../作业/HW_0517/src/com/lanou3g/hw0517/util/MyStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/http/HttpManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/http/HttpManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/MultiDownloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/MultiDownloadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/OnProgressListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/OnProgressListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/RealDownloadThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/multi/RealDownloadThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/util/CloseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0810/FutureDemo/src/dev/util/CloseHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0813_html/libs/faq01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0813_html/libs/faq01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0813_html/libs/faq02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0813_html/libs/faq02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0813_html/libs/faq03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0813_html/libs/faq03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0814(CSS)/src/libs/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0814(CSS)/src/libs/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0815(CSS)/src/com/lanou3g/image/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0815(CSS)/src/com/lanou3g/image/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Code_0815(CSS)/src/com/lanou3g/image/tel.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0815(CSS)/src/com/lanou3g/image/tel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-table.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table-zh-CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap-table.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../comlanou/src/main/webapp/static/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc(09_18)/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc(09_18)/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc(09_18)/src/main/java/com/lanou/demo/proxy/LogHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc(09_18)/src/main/java/com/lanou/demo/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc(09_18)/src/main/java/com/lanou/demo/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc(09_18)/src/main/java/com/lanou/demo/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc(09_18)/src/main/java/com/lanou/demo/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springmvc(09_18)/src/test/java/com/lanou/demo/UserServiceProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc(09_18)/src/test/java/com/lanou/demo/UserServiceProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0725线程/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0725线程/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0727反射/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0727反射/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0807_JDBC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0809数据库连接池/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0809数据库连接池/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0809数据库连接池/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0809数据库连接池/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Code_0827(文件上传)/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Code_0827(文件上传)/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring(09_25)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring(09_25)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../activemq(11_19)/src/main/java/com/lanou/activemq/entity/MsgEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../activemq(11_19)/src/main/java/com/lanou/activemq/entity/MsgEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis(09_28动态sql)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis(09_28动态sql)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis(09_28动态sql)/src/main/java/com/lanou/demo/entity/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis(09_28动态sql)/src/main/java/com/lanou/demo/entity/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisDemo(09_26)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisDemo(09_26)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisDemo(09_26)/src/main/resources/PersonMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisDemo(09_26)/src/main/resources/PersonMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisDemo(09_26)/src/test/com.lanou.demo/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisDemo(09_26)/src/test/com.lanou.demo/LoggerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-jpa2/src/main/java/com/lanou/springjpa2/Repository/RoleInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-jpa2/src/main/java/com/lanou/springjpa2/Repository/RoleInfoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-jpa2/src/test/java/com/lanou/springjpa2/SpringJpa2ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-jpa2/src/test/java/com/lanou/springjpa2/SpringJpa2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMvc(09_20)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMvc(09_20)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMvc(09_20)/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMvc(09_20)/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMvc(09_20)/src/main/webapp/WEB-INF/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springMvc(09_20)/src/main/webapp/WEB-INF/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc(09_18)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc(09_18)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc(09_18)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc(09_18)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvcDemo2(09_14)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvcDemo2(09_14)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvcDemo2(09_14)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvcDemo2(09_14)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc练习/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Shoppingstore/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc练习/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc练习/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc练习/src/main/webapp/WEB-INF/jsp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc练习/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc练习/src/main/webapp/WEB-INF/springMVC-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc练习/src/main/webapp/WEB-INF/springMVC-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc练习/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc练习/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc练习/target/springmvc练习/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc练习/target/springmvc练习/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc练习/target/springmvc练习/WEB-INF/jsp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc练习/target/springmvc练习/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc练习/target/springmvc练习/WEB-INF/springMVC-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc练习/target/springmvc练习/WEB-INF/springMVC-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springmvc练习/target/springmvc练习/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springmvc练习/target/springmvc练习/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/main/java/com/lanou/token_demo/utils/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../token_demo(11_01)/src/test/java/com/lanou/token_demo/TokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../token_demo(11_01)/src/test/java/com/lanou/token_demo/TokenTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/model/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../课堂代码/Code_0515/src/com/lanou3g/hw0514/pojo/User.java" afterDir="false" />
@@ -431,9 +533,10 @@
     <session id="-1687183465">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -491,16 +594,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="44" column="22" selection-start-line="8" selection-start-column="4" selection-end-line="44" selection-end-column="22" />
+            <state relative-caret-position="688">
+              <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -550,7 +653,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -596,7 +699,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="19" />
+    <option name="x" value="123" />
+    <option name="y" value="35" />
     <option name="width" value="1635" />
     <option name="height" value="976" />
   </component>
@@ -606,6 +710,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -643,14 +749,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springMvc(09_20)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -799,17 +903,17 @@
       <workItem from="1537228831677" duration="897000" />
       <workItem from="1537360046035" duration="186000" />
       <workItem from="1537840126341" duration="10000" />
+      <workItem from="1543893559530" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9964000" />
+    <option name="totallyTimeSpent" value="9988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="19" width="1635" height="976" extended-state="0" />
-    <editor active="true" />
+    <frame x="123" y="35" width="1635" height="976" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13650794" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1384127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -891,6 +995,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lanou/demo/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -915,18 +1022,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="44" column="22" selection-start-line="8" selection-start-column="4" selection-end-line="44" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

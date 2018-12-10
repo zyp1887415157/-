@@ -22,7 +22,7 @@ public interface RoleInfoRepository extends JpaRepository<RoleEntity, Long> {
 
     @Query(value = "select role_id as roleId,\n" +
             "       role_info.name as roleName,\n" +
-            "       COUNT(role_module.temp_module_id) as moduleCount\n" +
+            "       COUNT(role_module.temp_name) as moduleCount\n" +
             "from role_info\n" +
             "       left join role_module on role_id = role_module.temp_role_id\n" +
             "group by role_id",nativeQuery = true)

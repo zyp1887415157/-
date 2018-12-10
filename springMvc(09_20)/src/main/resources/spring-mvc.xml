@@ -14,6 +14,7 @@
     <!--使用默认的servlet去访问静态资源-->
     <mvc:default-servlet-handler/>
 
+
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/"></property>
         <property name="suffix" value=".jsp"></property>
